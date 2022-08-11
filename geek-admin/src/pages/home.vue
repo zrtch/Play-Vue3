@@ -3,7 +3,7 @@
  * @Date: 2022-08-10 10:45:59
 -->
 <template>
-    <div>首页</div>
+    <h2>首页</h2>
     <TodoList />
     <Core />
 </template>
