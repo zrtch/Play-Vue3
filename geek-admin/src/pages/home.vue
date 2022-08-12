@@ -6,11 +6,15 @@
     <h2>首页</h2>
     <TodoList />
     <Core />
+    <Count />
+    <!-- <MiniCount /> -->
 </template>
 
 <script setup>
 import TodoList from '../components/Todolist.vue'
 import Core from '../components/core.vue'
+import Count from '../components/count.vue'
+// import MiniCount from '../components/miniconut.vue'
 import { reactive, computed, watchEffect } from 'vue'
 
 let obj = reactive({

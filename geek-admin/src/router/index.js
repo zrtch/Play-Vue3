@@ -30,6 +30,7 @@ const routes = [
         component: Transition
     },
 
+
 ]
 
 const router = createRouter({
