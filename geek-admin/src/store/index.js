@@ -20,7 +20,16 @@ const store = createStore({
             setTimeout(() => {
                 commit('add')
             }, 1000)
+        },
+        addRouters ({ commit }, accessRoutes) {
+            const removeRoutes = []
+            accessRoutes.forEach(route => {
+                const removeRoute = router.addRoute(route)
+                removeRoutes.push(removeRoute)
+            })
+            commot('SET_REMOVE_ROUTES', removeRoutes)
         }
+
     },
     mutations: {
         add (state) {
