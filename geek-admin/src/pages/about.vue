@@ -1,3 +1,7 @@
+<!--
+ * @Descripttion: 
+ * @Date: 2022-08-11 14:17:40
+-->
 <template>
     <div>其他</div>
 </template>
@@ -23,7 +27,7 @@
 
 //---Vue3
 
-let getDouble = (n) => n * 2
+let getDouble = (n) => n * 3
 let obj = {
     count: 1,
 }
