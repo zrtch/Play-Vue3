@@ -3,7 +3,7 @@
  * @Date: 2022-08-23 15:01:43
  */
 const msg = require('fs')
-    .readFileSync('./git/COMMIT_EDITMSG', 'utf-8')
+    .readFileSync('.git/COMMIT_EDITMSG', 'utf-8')
     .trim()
 
 const commitRE = /^(revert:)?(feat|fix|docs|dx|style|perf|test)/
